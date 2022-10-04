@@ -137,7 +137,7 @@ const update = (
   prepend,
   cb = undefined,
 ) => {
-  const URL = `https://api.github.com/repos/${hook}/contents/${directory}/README.md`;
+  const URL = `https://api.github.com/repos/${hook}/contents/LeetCode/${directory}/README.md`;
 
   /* Read from existing file on GitHub */
   const xhr = new XMLHttpRequest();
